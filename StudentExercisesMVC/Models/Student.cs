@@ -17,5 +17,7 @@ namespace StudentExercisesMVC.Models
 
         public int CohortId { get; set; }
 
+        public Cohort cohort { get; set; }
+
     }
 }
